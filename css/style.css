@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: #c3cfe2;
+  padding: 40px;
+}
+
+h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 40px;
+}
+
+.social-media-btn {
+  padding: 12px;
+  color: #fff;
+  width: 220px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.social__blog {
+  background-color: #e17b77;
+  position: fixed;
+  top: 501px;
+  right: 0px;
+  -webkit-transform: translateX(175px);
+          transform: translateX(175px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.social__blog:hover::after {
+  content: 'Check out my blog';
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.social__blog:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.social__twitter {
+  background-color: #00aced;
+  position: fixed;
+  top: 541px;
+  right: 0;
+  -webkit-transform: translateX(175px);
+          transform: translateX(175px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.social__twitter:hover::after {
+  content: 'Follow me on Twitter';
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.social__twitter:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.social__facebook {
+  background-color: #3b5998;
+  position: fixed;
+  top: 621px;
+  right: 0;
+  -webkit-transform: translateX(175px);
+          transform: translateX(175px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.social__facebook:hover::after {
+  content: 'Like my Facebook page';
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.social__facebook:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.social__Linkedin {
+  background-color: #007bb6;
+  position: fixed;
+  top: 581px;
+  right: 0;
+  -webkit-transform: translateX(175px);
+          transform: translateX(175px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.social__Linkedin:hover::after {
+  content: 'Connect on Linkedin';
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.social__Linkedin:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.social__github {
+  background-color: #333;
+  position: fixed;
+  top: 661px;
+  right: 0;
+  -webkit-transform: translateX(175px);
+          transform: translateX(175px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.social__github:hover::after {
+  content: 'See Projects on Github';
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.social__github:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.social a {
+  font-size: 16px;
+  color: #fff;
+}
+
+.social i {
+  font-size: 20px;
+}
+
+.page-footer {
+  max-height: 100px;
+  width: 100vw;
+  background-color: #222;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 780px;
+}
+/*# sourceMappingURL=style.css.map */
